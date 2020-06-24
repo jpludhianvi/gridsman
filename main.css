@@ -10,7 +10,58 @@
 	--fontthree: 'Grand Hotel', cursive;
 };
 
-body,main,section,header,footer,div{
-	margin:0;
+.headernav{
+	margin: 0;
+	padding: 0;
 	border: 0;
+	float: right;
 }
+.headernav a{
+	font-family: var(--fontone);
+	font-size: 20px;
+	color: var(--bgtwo);
+	text-decoration: none;
+	padding: 5px;
+	width: 70%;
+}
+#logo{
+	font-size: 2em;
+	font-family: var(--fontthree);
+	padding: 15px;
+}
+.header{
+	margin: 5% 10%;
+	padding: 0;
+	border:0;
+	line-height: 10px;
+	background:url(images/bg.png);
+	color: var(--bgtwo);
+	text-align: center;
+
+}
+#img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	
+}
+.intro{
+	background-color: var(--bgtwo);
+	color: var(--bgone);
+	margin: 5% 10% 0%;
+	padding: 10px;
+	text-align: left;
+	align-items: center;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0 0 10px var(--bgtwo);
+	font-family: var(--fonttwo);
+	font-size: 20px;
+}
+.intro img{width: auto;height: auto;border-radius: 10px;margin: 0;padding: 0;border: 0;}
+.intro h2{ font-family: var(--fontone);}
+.intro a{text-decoration: none;font-family: var(--fontone);color: var(--bgone);}
+#hr{width: 80%;margin: auto;}
