@@ -1,0 +1,36 @@
+gridsman 
+
+Motive: To aware people about grooming, 
+blog about clothing, grooming.
+blog contains topics about types of clothings, types of dresses, rules of dresses, Tips % Tricks
+
+
+classic blue: #34558B
+Naval: Naval (#2F3D4C)
+orange (#F95700FF)
+Moss green (#4A5D23) and cream (#FFFDD0)
+Navy (#02075D) and blush (#FFC0CB)
+peach-orange (#FFCC99)
+Pink (#FFC0CB) and Forest Green (#014421)
+
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+font-family: 'Bebas Neue', cursive;
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+font-family: 'Roboto', sans-serif;
+
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet"> 
+font-family: 'Grand Hotel', cursive;
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+Image Hover overlay
+Fixed Navbar
+Image Hover Zoom
+Footer Full Page

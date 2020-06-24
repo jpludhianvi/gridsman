@@ -1,0 +1,16 @@
+/*
+	Main BG color: Naval, Peach Orange;
+	Main Fonts: Bebas Neue, Roboto Light;
+*/
+:root{
+	--bgone: #2F3D4C;
+	--bgtwo: #FFCC99;
+	--fontone: 'Bebas Neue', cursive;
+	--fonttwo: 'Roboto', sans-serif;
+	--fontthree: 'Grand Hotel', cursive;
+};
+
+body,main,section,header,footer,div{
+	margin:0;
+	border: 0;
+}
