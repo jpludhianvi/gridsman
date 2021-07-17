@@ -12,7 +12,7 @@ Moss green (#4A5D23) and cream (#FFFDD0)
 Navy (#02075D) and blush (#FFC0CB)
 peach-orange (#FFCC99)
 Pink (#FFC0CB) and Forest Green (#014421)
-
+Dark Navy(#011a27) and Daffodil(#e6df44)
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
 font-family: 'Bebas Neue', cursive;
@@ -34,3 +34,32 @@ Image Hover overlay
 Fixed Navbar
 Image Hover Zoom
 Footer Full Page
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170465353-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+	  ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id
+	  gtag('config', 'UA-170465353-1');
+	</script>
+
+
+Index Page
+About 
+Contact
+Portfolio
+Blog Index
+Main Blog
+Resources
+
+The Story of Gridsman begins with an Idea of Providing Information to People having Day-to-Day life work and can't help with the Grooming part. People who always struggle with their Fashion Sense and don't have the necessary information about what to wear and How to wear.
+The Idea regulates around the Youth who wants to upbring their confidence and personality by adapting some of the Grooming necessities.
+
+ I Jai Prakash, A Student who having keen interest in Fashion and clothing from a long time and the way people have reached to me about my Fashion sense motivated me about making this Blog. Initially,I was also a normal being having no sense of Dressing one day surfing the Internet and Found an Influencer who talks about Fashion and Grooming. That very moment changed my Perspective towards Dressing and from that moment I started Following the Fashion Influencers and community Leaders. It's been more than 2 years now. I'm the part of that community. 
+
+
+
+

@@ -257,6 +257,7 @@
 	border: 0;
 	float:left;
 	width: 30%;
+	text-decoration: none;
 }
 .mainlinks{
 	margin: 0;
@@ -309,6 +310,7 @@
 	color: var(--bgone);
 	border-radius: 10px;
 	font-family: var(--fontone);
+	word-spacing: 2px;
 }
 input[type=text]{
 	background-color: var(--bgone);
@@ -366,20 +368,20 @@ input[type=submit]{
 /*Blog Index Page*/
 
 #blogcardheading{color: var(--bgtwo);text-align: center;font-family: var(--fontone);}
+
+
+
 .blogcardmenu{
-	margin: 2% 10% auto;
+	margin: 2% 10% 2%;
 	padding: 0;
 	border: 0;
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-gap: 5%;
+	display: flex;
 }
-.blogcard:hover{box-shadow: 0px 0px 10px var(--bgtwo);}
 .blogcard{
-	margin: 0;
-	padding: 5px;
-	border: 1px solid var(--bgtwo);
-	width: 100%;
+	margin: 0% 3%;
+	padding: 10px;
+	border: 0;
+	width: 30%;
 	height: auto;	
 	background-color: var(--bgtwo);
 	border-radius: 10px;
@@ -387,6 +389,7 @@ input[type=submit]{
 	font-family: var(--fonttwo);
 	font-size: 0.8em;
 }
+.blogcard:hover{box-shadow: 0px 0px 10px var(--bgtwo);}
 .blogcard img{max-width: 100%;height: auto;border-radius: 10px;}
 .blogcard h2{font-family: var(--fontone);}
 .blogcard a{text-decoration: none;color: var(--bgone);max-width: 100%;margin: 0;padding: 0;border: 0;}
@@ -398,3 +401,80 @@ input[type=submit]{
 		font-size: 0.5em;
 	}
 }
+
+.blogcounter{
+	margin: 1% 10%;
+	padding: 10px;
+	border: 0;
+	text-align: center;
+}
+.blogcounter a{
+	color: var(--bgtwo);
+	font-family: var(--fontone);
+	text-decoration: none;
+	text-transform: none;
+	font-size:1.5em;
+}
+
+/*Resources Page*/
+
+.resourcescardsmenu{
+	margin: 2% 10%;
+	padding: 0;
+	border: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.resourcescard{
+	margin: 2% 25%;
+	padding: 2px;
+	border: 0;
+	width: 50%;
+	height: 50%;
+	min-width: 30%;
+	border-radius: 10px;
+	background-color: var(--bgtwo);
+	color: var(--bgone);
+	position: relative;
+}
+
+.cardimage{
+  display: block;
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.cardoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bgone);
+  opacity: 0.5;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.7s ease;
+}
+
+.resourcescard:hover .cardoverlay {
+  height: 100%;
+}
+
+.cardtext {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: var(--fonttwo);
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cardtext a{text-decoration: none;color: var(--bgtwo);padding: 5px;}
